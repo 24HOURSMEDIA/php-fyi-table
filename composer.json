@@ -1,0 +1,21 @@
+{
+    "name": "twentyfourhoursmedia/php-fyi-table",
+    "description": "Conventient table models",
+    "type": "library",
+    "authors": [
+        {
+            "name": "e.bachman",
+            "email": "e.bachman@24hoursmedia.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "T4\\FYITable\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*"
+    }
+}
