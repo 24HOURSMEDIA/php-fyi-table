@@ -31,7 +31,7 @@ trait AttributesSupportingTrait
      * @param $default
      * @return mixed
      */
-    public function getAttribute(string $handle, $default)
+    public function getAttribute(string $handle, $default = null)
     {
         return $this->attributes[$handle] ?? $default;
     }
